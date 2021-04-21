@@ -7,6 +7,7 @@ h1, h3 {
 
 h2 {
     margin: 0px 5px 5px 5px;
+    font-style: italic;
 }
 
 body {
@@ -31,4 +32,8 @@ li {
 
 header {
     text-align: center;
+}
+
+article {
+    color: darkgray;
 }
