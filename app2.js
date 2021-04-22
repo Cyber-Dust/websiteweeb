@@ -1,4 +1,4 @@
-let sign = prompt("Do you want to get free Bitcoin? Type YES or NO")
+let sign = prompt("Do you know what a cryptocurrency is? Type YES or NO")
 
 if (sign.toLocaleLowerCase() == "yes") {
     alert("KEEP READING")
