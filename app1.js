@@ -21,9 +21,9 @@ function userAlert(){
     let sign = prompt("Do you know what a cryptocurrency is? Type YES or NO");
 
     if (sign.toLocaleLowerCase() == "yes") {
-        alert("KEEP READING")
+        alert("So Far, So Good!")
     } else if (sign = "no") {
-        alert("WRONG CHOICE")
+        alert("Keep Reading")
     }
 }
 
@@ -31,3 +31,11 @@ function userAlert(){
 function myFunction() {
     confirm("Cryptocurrency is the future!🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀");
   }
+
+function addPictures(){
+    numberOfPictures = prompt('How many Bitcoin would you like?');
+    url = "https://www.aljazeera.com/wp-content/uploads/2020/11/2020-11-24T133928Z_788862449_RC2P9K9XL48K_RTRMADP_3_CRYPTO-CURRENCIES.jpg?resize=770%2C513"
+    for(let i = 0; i < numberOfPictures; i ++){
+        document.write('<img src=" ' + url + '" >');
+    }
+}
