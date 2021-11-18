@@ -5,11 +5,11 @@ function timeZone(){
     let greeting;
     
     if (hourNow > 18) {
-        greeting = 'Good evening!';
+        greeting = 'Good evening! Welcome to';
     } else if (hourNow > 12) {
-        greeting = 'Good afternoon!';
+        greeting = 'Good afternoon! Welcome to';
     } else if (hourNow > 0) {
-        greeting = 'Good Morning!';
+        greeting = 'Good Morning! Welcome to';
     } else {
         greeting = 'WELCOME!';
     }
